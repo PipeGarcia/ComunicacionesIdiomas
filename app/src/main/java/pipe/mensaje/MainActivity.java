@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
         infoTextView = (TextView) findViewById(R.id.infoTextView);
 
-       /* if (getIntent().getExtras() != null){
+        //Para mostrar informacion extra
+        if (getIntent().getExtras() != null){
 
             for (String key : getIntent().getExtras().keySet()){
 
@@ -24,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-        }*/
+        }
     }
 }
